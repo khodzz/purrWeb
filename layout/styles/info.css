@@ -1,0 +1,69 @@
+.info {
+  padding: 108px 0 180px;
+  background: rgb(24, 24, 24);
+  overflow: hidden;
+}
+
+.info__container {
+  position: relative;
+  gap: 80px;
+}
+
+.info__container img {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 2;
+}
+
+.info__text {
+  font-size: 128px;
+  font-weight: 700;
+  color: #fff;
+  white-space: nowrap;
+  display: inline-block;
+  position: relative;
+  animation: slideAlternate 8s infinite ease-in-out alternate;
+}
+
+.info__container div:nth-child(3) .info__text {
+  animation: slideReverse 8s infinite ease-in-out alternate;
+}
+
+.info__container div {
+  display: flex;
+}
+.info__container div h2 {
+  margin-left: 20px;
+}
+
+.cyan {
+  color: rgb(47, 219, 188);
+}
+
+.purple {
+  color: rgb(166, 76, 237);
+}
+
+.orange {
+  color: rgb(255, 170, 76);
+}
+
+@keyframes slideAlternate {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes slideReverse {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

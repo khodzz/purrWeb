@@ -1,0 +1,39 @@
+.hero {
+  padding: 7px 0;
+  background: rgb(24, 24, 24);
+  overflow-x: hidden;
+}
+
+.hero__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__top-btn {
+  padding: 16px 30px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  background: rgb(149, 76, 237);
+  border: 0;
+  border-radius: 16px;
+}
+
+.hero__primary {
+  display: flex;
+  padding: 70px 0;
+  margin-left: 45px;
+}
+
+.hero__primary-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 96px;
+}
+
+.hero__primary-desc {
+  color: #fff;
+  font-size: 20px;
+  padding: 20px 0 40px;
+}
