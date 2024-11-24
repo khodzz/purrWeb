@@ -1,0 +1,38 @@
+.contact {
+  padding: 100px 0;
+}
+
+.contact__info {
+  text-align: center;
+  width: 100%;
+  border: 2px solid rgb(207, 207, 207);
+  border-radius: 60px;
+}
+
+.contact__info {
+  padding: 40px 0 40px 0;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.contact button {
+  margin: 0 0 40px 0;
+}
+
+.contact__socials {
+  display: flex;
+  padding: 100px 0;
+}
+
+.contact__socials-title {
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 106%;
+}
+
+.contact__socials-caption {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+  padding-top: 20px;
+}

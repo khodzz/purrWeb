@@ -1,0 +1,7 @@
+.footer {
+  background: rgb(24, 24, 24);
+}
+
+.footer__top {
+  display: flex;
+}
