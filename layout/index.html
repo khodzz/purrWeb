@@ -121,19 +121,21 @@
     </section>
 
     <section class="info">
-      <div class="info__container">
-        <img src="./images/budssImages/phone.png" alt="" />
-        <div>
-          <h2 class="info__text cyan">How Budss Works</h2>
-          <h2 class="info__text white">How Budss Works</h2>
-        </div>
-        <div>
-          <h2 class="info__text white">How Budss Works</h2>
-          <h2 class="info__text purple">How Budss Works</h2>
-        </div>
-        <div>
-          <h2 class="info__text orange">How Budss Works</h2>
-          <h2 class="info__text white">How Budss Works</h2>
+      <div class="container">
+        <div class="info__container">
+          <img src="./images/budssImages/phone.png" alt="" />
+          <div>
+            <h2 class="info__text cyan">How Budss Works</h2>
+            <h2 class="info__text white">How Budss Works</h2>
+          </div>
+          <div>
+            <h2 class="info__text white">How Budss Works</h2>
+            <h2 class="info__text purple">How Budss Works</h2>
+          </div>
+          <div>
+            <h2 class="info__text orange">How Budss Works</h2>
+            <h2 class="info__text white">How Budss Works</h2>
+          </div>
         </div>
       </div>
     </section>
@@ -308,6 +310,7 @@
         </div>
       </div>
     </section>
+
     <footer class="footer">
       <div class="container">
         <div class="footer__top">
@@ -315,24 +318,36 @@
             <img src="./images/footer/Logo.svg" alt="" />
           </div>
           <div>
-            <a href="">For Business</a>
-            <a href="">For Customers</a>
+            <a class="footer__top-links" href="">For Business</a>
+            <a class="footer__top-links" href="">For Customers</a>
           </div>
-          <div style="display: flex">
+          <div style="display: flex; gap: 40px">
             <button class="btn">Contact sales</button>
             <div>
-              <button><img src="./images/footer/appstore.svg" alt="" /></button>
+              <button style="background: transparent">
+                <img src="./images/footer/appstore.svg" alt="" />
+              </button>
             </div>
             <div>
-              <img src="" alt="" />
-              <button>
+              <button style="background: transparent">
                 <img src="./images/footer/googleplay.svg" alt="" />
               </button>
             </div>
           </div>
         </div>
-        <hr />
-        <div></div>
+        <hr style="border: 1px solid rgb(68, 68, 68)" />
+        <div class="footer__bottom">
+          <p class="footer__bottom-copy">
+            © Copyright 2023, All Rights Reserved by Budss
+          </p>
+          <div style="display: flex; gap: 20px">
+            <a class="footer__bottom-links" href="">Privacy Policy</a>
+            <a class="footer__bottom-links" href="">Terms Of Use - Seller</a>
+            <a class="footer__bottom-links" href=""
+              >Terms of Use - Sellers & Customers</a
+            >
+          </div>
+        </div>
       </div>
     </footer>
   </body>

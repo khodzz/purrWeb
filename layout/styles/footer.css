@@ -1,7 +1,34 @@
 .footer {
   background: rgb(24, 24, 24);
+  padding: 40px 0 146px;
 }
 
 .footer__top {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.footer__top-links {
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 40px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: rgb(185, 185, 185);
+  font-weight: 300;
+}
+
+.footer__bottom-links {
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: underline;
+  color: rgb(185, 185, 185);
 }
